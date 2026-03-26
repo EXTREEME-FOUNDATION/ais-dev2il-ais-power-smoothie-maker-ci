@@ -31,7 +31,7 @@ jobs:
     - name: Install the project
       run: uv sync --frozen
 
-    # Check code formatting and lint
+    # Check code formatting and lintw
     - name: Check code
       run: uvx ruff check . --output-format=github
 
