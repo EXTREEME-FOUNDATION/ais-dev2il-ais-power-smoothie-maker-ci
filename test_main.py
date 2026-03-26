@@ -60,6 +60,7 @@ def test_make_smoothie_prints_added_ingredients_version_1(tmp_path, capsys):
 
 
 def test_make_smoothie_prints_added_ingredients_version_2(tmp_path):
+    1/0
     # Given: a recipe file with ingredients
     recipe_file = tmp_path / "my_smoothie.txt"
     recipe_file.write_text("Apple\nBanana\n")
